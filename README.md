@@ -3,6 +3,9 @@
 Hack week project @ iZettle, theme was "Makerspace".
 [![Hairy Plotter writes a Christmas Greeting](http://img.youtube.com/vi/4Q5KRgvDC34/0.jpg)](http://www.youtube.com/watch?v=4Q5KRgvDC34 "Hairy Plotter writes a Christmas Greeting")
 
+## Disclaimer
+I am not a Python programmer.
+
 ## Components
 * [1 Raspberry Pi](https://www.kjell.com/se/sortiment/dator-natverk/enkortsdator/raspberry-pi/raspberry-pi-3-model-b-enkortsdator-p88000)
 * [4 stepper motors](https://www.kjell.com/se/sortiment/el-verktyg/arduino/tillbehor/luxorparts-stegmotor-med-vaxellada-och-drivare-4-pack-p90775)
