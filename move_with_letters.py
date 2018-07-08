@@ -24,32 +24,41 @@ def main():
     print "Hit 'q' to quit\r"
 
     try:
-        currentCoord = [-40, 30]
+        currentCoord = [-20, 25]
         hairy.goToPosition(currentCoord)
-        stringToPrint = "GOD JUL"
+        stringToPrint = "KRYA"
         for c in stringToPrint:
             key = traad.getKey()
             if key == ord('q'):
                 return
             writeLetter(hairy, c, currentCoord)
 
-        currentCoord = [-35, 0]
+        currentCoord = [-30, 0]
         hairy.goToPosition(currentCoord)
-        stringToPrint = "oNSKAR"
+        stringToPrint = "Pa DIG"
         for c in stringToPrint:
             key = traad.getKey()
             if key == ord('q'):
                 return
             writeLetter(hairy, c, currentCoord)
 
-        currentCoord = [-40, -45]
+        currentCoord = [-30, -25]
         hairy.goToPosition(currentCoord)
-        stringToPrint = "+ ROBOT"
+        stringToPrint = "SiMoNE!"
         for c in stringToPrint:
             key = traad.getKey()
             if key == ord('q'):
                 return
             writeLetter(hairy, c, currentCoord)
+
+        #currentCoord = [-40, -45]
+        #hairy.goToPosition(currentCoord)
+        #stringToPrint = "+ ROBOT"
+        #for c in stringToPrint:
+        #    key = traad.getKey()
+        #    if key == ord('q'):
+        #        return
+        #    writeLetter(hairy, c, currentCoord)
 
     finally:
         hairy.goToPosition([0, 0])
